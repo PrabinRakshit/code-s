@@ -23,7 +23,7 @@ const userRegistrationController={
         //               await sendMail(email,subject,template)
 
 
-        //     // res.json({,   data:newUser})
+            // res.json({,   data:newUser})
         //     res.status(StatusCodes.OK).json({msg:"User Registered Successfully" ,data:newUser})
         // } catch (err) {
         //     return res.status(StatusCodes.INTERNAL_SERVER_ERROR).json({msg:err.message})
