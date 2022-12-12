@@ -13,8 +13,8 @@ const con = mysql.createConnection({
 const connectDB = () => {
     return con.connect(function (err) {
 
-        if (err) assert.deepStrictEqual(err, null);
-        console.log("mysql DB connected");
+        // if(err) assert.deepStrictEqual(err, null);
+             console.log("mysql DB connected");
     });
 
 }
